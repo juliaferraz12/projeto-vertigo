@@ -117,8 +117,9 @@ main {
 
  .login button:hover {
     background: var(--light-purple);
-    transition: 0.3s
+    transition: 0.3s;
     cursor: pointer;
+
  }
 
  .login > p a {
@@ -133,6 +134,7 @@ main {
  @media(min-width: 1000px) {
     body{
         display: flex;
+        height: 100vg;
     }
 
     header {
@@ -163,6 +165,12 @@ main {
     .bg-desktop {
         display: block;
         width: 100%;
+    }
+
+    .bg-desktop img {
+        display: block;
+        width: 100%;
+        height: 100%;
     }
     
     .descricao h1 {
